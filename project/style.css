@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+  ::-webkit-scrollbar {
+            display: none;
+        }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    height: 100vh;
+    
+}
+header{
+    
+     background: url(background.png);
+    background-size: cover;
+    font-family: 'Cuprum', sans-serif;
+    height: 100vh;
+    width: 100%;
+
+}
+.dws-menu{
+    height: 130px;
+
+    position: sticky;
+    top: 0;
+    z-index: 0;
+}
+.dws-menu ul{
+    list-style: none;
+    position: absolute;
+    top: 0%;
+  left: 18%;
+    height: 120px;
+    
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: flex-start;
+        
+}
+.dws-menu > ul li a{
+    display: block;
+    background: none;
+    padding: 40px 90px 35px 89px;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.dws-menu > ul li{
+    position: relative;
+  
+    
+}
+.dws-menu > ul li > a i. fas{
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    font-size: 18px;
+    
+}
+.dws-menu > ul li:first-child{
+    border-left:1px solid #141414; 
+}
+.dws-menu > ul li:last-child{
+   
+}
+.dws-menu li a:hover{
+    background: #1E1D22;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: 0.3s;
+}
+.logo{
+    display: block;
+    background-color:#ED5034;
+    padding: 25px;
+    position: absolute;
+    height: 120px;
+    width: 260px;
+}
+.form{
+    background: #ED5034;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    top: -10%;
+    left: 65%;
+    padding: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding: 29px;
+    cursor: default;
+}
+.form-check-label{
+    text-align: left;
+}
+.batn{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    padding:10px 70px;
+    font-weight: 500;
+    transition: 0.3s;
+    position: relative;
+    top: 30%; 
+    cursor: pointer;
+}
+.batn:hover{
+    color: #663E38;
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+      transition: 0.3s;
+}
+.phoneinp{
+    width: 140px;
+    background: #D0472E;
+    border: 0px;     
+    border-radius: 0px;
+}
+.datinp{
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    top: 171px;
+    margin-left: 30px;
+    background: #D0472E;
+    border: 0px;     
+    border-radius: 0px;
+}
+.nameinp {
+    background: #D0472E;
+    border: 0px;     
+    border-radius: 0px;
+}
+
+.formtitle{
+    margin-bottom: 50px;
+    
+}
+.form-control:focus{
+    background: #D0472E;
+    box-shadow:none;
+    border: 1px solid rgba(0,0,0,.3)
+}
+.form-control::placeholder{
+    color: #ffffff;
+    opacity: .5;
+}
+.text{
+    font-family: 'Castoro', serif;
+    color: #141414;
+    font-size: 80px;
+    display: block;
+    width: 500px;
+    font-weight: 600;
+}
+.inf{
+    font-family: 'Cuprum', sans-serif;
+    width:250px; 
+    color:#141414;
+    position: absolute;
+    top: 100%;
+    left:20%;
+    cursor: default;
+}
+
+.line{
+    height: 2px;
+    background-color: #D0472E;
+}
+.fa-hourglass-half{
+    
+  font-size: 3em;
+    color:#D0472E;
+    position: absolute;
+    bottom: 20%;
+    left:150%;
+}
+.inf2{
+    width: 130px;
+    position: absolute;
+    bottom: 18%;
+    left:170%;
+}
+.pbold{
+    font-weight: 900;
+    font-size: 16px
+}
+.popac{
+    opacity: .8;
+    font-size: 17px
+}
+.fa-compass{
+    font-size: 3em;
+    color:#D0472E;
+    position: absolute;
+    bottom: -100%;
+    left:-41%;
+}
+.to_cmpss{
+position: absolute;
+    bottom: -160%
+}
+.footer{
+    width: 100%;
+    height: 130px;
+    background: #251B1A;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+}
+.logo_footer{
+    display: block;
+    position: absolute;
+    left: 44%;
+    top: 25%;
+}
+.textfoot{
+    display: block;
+    color: #ffffff;
+    position: relative;
+    top: 40%;
+    left: 5%;
+    opacity: .5;
+    cursor: default;
+}
+ .social img {
+            width: 25px;
+            height: 25px;
+            margin-left: 30px;
+            position: relative;
+            left: 35em;
+            top: 25%;
+            opacity: .5;
+        }
+.social img:hover {
+            width: 25px;
+            height: 25px;
+            margin-left: 30px;
+            position: relative;
+            left: 35em;
+            top: 20%;
+            opacity: .5;
+        }
